@@ -1,6 +1,6 @@
 import sgMail from '@sendgrid/mail';
 
-const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY || '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';
+const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY || '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';
 
 export async function handler(event) {
   sgMail.setApiKey(SENDGRID_API_KEY);
